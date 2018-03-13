@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+</head>
+<body>
+	<script type ="text/javascript">
+		var str = "'aaa@bbb@ccc";
+		alert(str.replace(/@/g, '!'));
+
+		function letters(str){
+			var reg = /@/g;
+			var result = str.match(reg);
+			alert(result);
+		}
+		letters(str);
+
+
+</script>
+	
+</body>
+</html>
